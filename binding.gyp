@@ -6,7 +6,7 @@
         'src/kinect.cc',
       ],
       'libraries': [
-         'libfreenect.a',
+         '/usr/local/lib/libfreenect.a',
       ],
       'conditions': [
         ['OS=="mac"', {
